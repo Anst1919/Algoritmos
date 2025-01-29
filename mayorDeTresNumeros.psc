@@ -8,13 +8,13 @@ Algoritmo mayorDeTresNumeros
 	Leer num3
 	//definir el numero mayor mediante operadores
 	Si num1 > num2 Y num1 > num3 Entonces 
-		NumMayor <- num1 
+		numMayor <- num1 
 	Sino 
 		Si num2 > num1 Y num2 > num3 Entonces 
-			NumMayor <- num2 
+			numMayor <- num2 
 		sino 
 			numMayor <- num3
 		finsi 
 	FinSi
-	Escribir " El numero mayor es: ", NumMayor
+	Escribir " El numero mayor es: ", numMayor
 FinAlgoritmo
